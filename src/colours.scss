@@ -1,0 +1,42 @@
+$kum-green-100: rgba(0, 126, 54, 1);
+$kum-green-65: rgba(0, 126, 54, 0.65);
+$kum-green-35: rgba(0, 126, 54, 0.35);
+$light-green-100: rgba(166, 202, 86, 1);
+$light-green-65: rgba(166, 202, 86, 0.65);
+$light-green-35: rgba(166, 202, 86, 0.35);
+$dark-grey: rgba(157, 157, 157, 1);
+$dark-grey-65: rgba(157, 157, 157, 0.65);
+$dark-grey-35: rgba(157, 157, 157, 0.35);
+$light-grey: rgba(208, 208, 208, 1);
+$light-grey-65: rgba(208, 208, 208, 0.65);
+$light-grey-35: rgba(208, 208, 208, 0.35);
+$black: #33312d;
+$gray: #767676;
+$light-gray: #efeeee;
+$red: #c5463f;
+$orange-dark: #c76b01;
+$gold: #baa875;
+$gold-dark: #a09063;
+$grassgreen: #9fb944;
+$grassgreen-dark: #829736;
+$green: #439439;
+$blue: #3f86ac;
+$font-size-base: 14px !default;
+$font-size-h1: floor(($font-size-base * 2.05)) !default; // ~29px
+$font-size-h2: floor(($font-size-base * 1.75)) !default; // ~27px
+$font-size-h3: ceil(($font-size-base * 1.2)) !default; // ~24px
+$font-size-h4: ceil(($font-size-base * 1)) !default; // ~18px
+$font-size-h5: $font-size-base !default;
+$font-size-h6: ceil(($font-size-base * 0.85)) !default; // ~12px
+$font-color-h1: #3e3d40;
+$font-color-h2: #4b4b4d;
+$font-color-h3: #505053;
+$font-color-h4: #4b4b4d;
+$font-color-h5: #505052;
+$font-color-h6: #555557;
+$color-bright: #ffffff;
+$color-error: #ff0000;
+$color-dark: #262626;
+$placeholder: #a0a0a0;
+$color-grey-transparent: rgba(102, 102, 102, 0.8);
+$color-bright-transparent: rgba(255, 255, 255, 0.8);
