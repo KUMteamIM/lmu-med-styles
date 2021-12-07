@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "files": [
+    "dist/*.css"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/KUMteamIM/lmu-styles.git"
@@ -15,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/KUMteamIM/lmu-styles/issues"
   },
-  "homepage": "https://github.com/KUMteamIM/lmu-styles#readme"
+  "homepage": "https://github.com/KUMteamIM/lmu-styles#readme",
+  "devDependencies": {
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1"
+  }
 }
