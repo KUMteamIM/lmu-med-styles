@@ -6,15 +6,15 @@ Provides CSS in line with the LMU Klinikum corporate identity
 
 Add the package to your project:
 
-´´´
+```
 npm install -d https://github.com/KUMteamIM/lmu-styles.git
-´´´
+```
 
 Import css from the module dist folder.
 
-´´´
+```
 @import 'lmu-styles/dist/lmu-styles.min.css'
-´´´
+```
 
 ## Development
 
