@@ -1,0 +1,19 @@
+{
+  "name": "lmu-styles",
+  "version": "1.0.0",
+  "description": "Provides common CSS styles in LMU Klinikum corporate identify",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KUMteamIM/lmu-styles.git"
+  },
+  "author": "Dominique Klevinghaus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KUMteamIM/lmu-styles/issues"
+  },
+  "homepage": "https://github.com/KUMteamIM/lmu-styles#readme"
+}
