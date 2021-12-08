@@ -1,0 +1,72 @@
+@import "colours";
+
+body {
+  color: $font-color;
+  font-size: 13px;
+
+  a {
+    color: $kum-green-100;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  margin-top: 3px;
+  color: $font-color-light;
+  font-weight: normal;
+}
+
+h1,
+.h1 {
+  line-height: 120%;
+  color: $font-color-h1;
+  &.title {
+    margin-bottom: 1.6em;
+  }
+}
+
+h2,
+.h2 {
+  color: $font-color-h2;
+  line-height: 120%;
+}
+
+h3,
+.h3 {
+  color: $font-color-h3;
+  line-height: 120%;
+}
+
+h4,
+.h4 {
+  color: $font-color-h4;
+  line-height: 120%;
+}
+
+h5,
+.h5 {
+  color: $font-color-h5;
+  line-height: 120%;
+}
+
+h6,
+.h6 {
+  color: $font-color-h6;
+  line-height: 110%;
+}
+
+p {
+  font-size: 1em;
+  text-align: left;
+  margin: 0 0 0.9em 0;
+}

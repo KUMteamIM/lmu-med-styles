@@ -4,7 +4,9 @@
   "description": "Provides common CSS styles in LMU Klinikum corporate identify",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile": "webpack --mode=production",
+    "watch": "webpack --watch",
+    "start": "webpack serve --open"
   },
   "files": [
     "dist/*.css"
@@ -20,7 +22,16 @@
   },
   "homepage": "https://github.com/KUMteamIM/lmu-styles#readme",
   "devDependencies": {
+    "css-loader": "^6.5.1",
+    "html-webpack-plugin": "^5.5.0",
+    "sass": "^1.44.0",
+    "sass-loader": "^12.4.0",
+    "style-loader": "^3.3.1",
     "webpack": "^5.65.0",
-    "webpack-cli": "^4.9.1"
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.6.0"
+  },
+  "dependencies": {
+    "mini-css-extract-plugin": "^2.4.5"
   }
 }
