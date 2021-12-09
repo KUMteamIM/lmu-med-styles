@@ -24,8 +24,6 @@ To test your package run:
 npm start
 ```
 
-...and then open you a file at http://localhost:8080
-
 To compile and publish a release, run:
 
 ```
@@ -34,7 +32,7 @@ npm run compile
 
 ## Releasing
 
-Run npm version major, minor or patch to bump the version number in package.json
+Run npm version major, minor or patch to bump the version number in package.json. Then tag with the new version number and push the new tag.
 
 ## Contributing
 
