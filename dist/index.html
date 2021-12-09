@@ -9,16 +9,36 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
+    <script src="index.js"></script>
     <link rel="stylesheet" href="lmu.css" />
     <style type="text/css">
       .row {
         margin-bottom: 40px;
       }
+      h1 {
+        text-decoration: underline;
+        margin-bottom: 24px;
+      }
+      pre {
+        background-color: #f1f1f1;
+      }
+      code {
+        font-family: Consolas, "courier new";
+        color: crimson;
+        padding: 2px;
+        font-size: 105%;
+      }
+      nav {
+        margin-bottom: 2rem;
+      }
+      a[name="*"] {
+        padding-top: 2rem;
+      }
     </style>
   </head>
   <body class="lmu">
     <div class="container">
-      <nav class="navbar navbar-light bg-light">
+      <nav class="navbar navbar-light bg-light sticky-top">
         <a class="navbar-brand" href="#">LMU-Styles</a>
         <a href="#headings">Überschriften</a>
         <a href="#listen">Listen</a>
@@ -30,15 +50,15 @@
       <div class="row">
         <div class="col-md-12">
           <a name="headings"></a>
-          <h2>Überschriften</h2>
-          <h1>H1</h1>
-          <h2>H2</h2>
-          <h3>H3</h3>
-          <h4>H4</h4>
-          <h5>H5</h5>
-          <h6>H6</h6>
+          <h1>Überschriften</h1>
+          <h1 style="text-decoration: none">H1 Baz</h1>
+          <h2>H2 Foo</h2>
+          <h3>H3 Bar</h3>
+          <h4>H4 Baz</h4>
+          <h5>H5 Foo</h5>
+          <h6>H6 Bar</h6>
           <h3>
-            .h3 Überschrift 3
+            Überschrift 3
             <small>Dieser Zusatztext steht im Kleingedruckten</small>
           </h3>
           <p class="legend">Dies ist eine Legende.</p>
@@ -923,7 +943,7 @@
       <div class="row">
         <div class="col-12">
           <a name="forms"></a>
-          <h2>Formulare</h2>
+          <h1>Formulare</h1>
           <div class="form-group">
             <label for="bla">Textfeld</label>
             <input type="text" name="bla" placeholder="Text eingeben..." />
@@ -942,58 +962,30 @@
       <div class="row">
         <div class="col-12">
           <a name="buttons"></a>
-          <h2>Buttons</h2>
-          <p>
-            Der normale Button ist grün und verdunkelt sich leicht bei hover und
-            active:
-            <button>Klick</button>
-          </p>
-          <p>
-            Denselben Button in Kontur kann man durch Hinzufügen der Klasse
-            `invers` anzeigen:
-            <button class="invers">Klick</button>
-          </p>
+          <h1>Buttons</h1>
 
           <h3>Button-Größen</h3>
           <p>Es stehen drei Standardgrößen zur Verfügung:</p>
           <table>
             <thead>
               <tr>
-                <th>Klasse</th>
-                <th>Beispiel</th>
-                <th>Invertiert</th>
-                <th>Beispiel</th>
+                <th>Klassenname:</th>
+                <th>button-lg</th>
+                <th>button-md</th>
+                <th>button-sm</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td>button-lg</td>
+                <td>Beispiel:</td>
                 <td>
                   <button class="button-lg">Platzhalter</button>
                 </td>
-                <td>button-lg invers</td>
-                <td>
-                  <button class="button-lg invers">Platzhalter</button>
-                </td>
-              </tr>
-              <tr>
-                <td>button-md</td>
                 <td>
                   <button class="button-md">Platzhalter</button>
                 </td>
-                <td>button-md invers</td>
-                <td>
-                  <button class="button-md invers">Platzhalter</button>
-                </td>
-              </tr>
-              <tr>
-                <td>button-sm</td>
                 <td>
                   <button class="button-sm">OK</button>
-                </td>
-                <td>button-sm invers</td>
-                <td>
-                  <button class="button-sm invers">OK</button>
                 </td>
               </tr>
             </tbody>
@@ -1001,65 +993,32 @@
 
           <h3>Button-Farben</h3>
           <p>
-            Bisher kann nur zwischen den 3 Farben, die im Style-Tyle definiert
-            wurden, gewählt werden. Ausnahme ist der im Footer befindliche
-            Newsletter-Button. Dieser ist wegen des dunklen Footer-Backgrounds
-            in Weiß-Kontur.
-          </p>
-          <h4>Orange / Grasgrün</h4>
-          <p>
-            <button class="button-lg orange-button-invers">Platzhalter</button>
-            <button class="button-md orange-button-invers">Platzhalter</button>
-            <button class="button-sm orange-button-invers">OK</button>
-          </p>
-          <p>
-            <button class="button-lg grassgreen-button-invers">
-              Platzhalter
-            </button>
-            <button class="button-md grassgreen-button-invers">
-              Platzhalter
-            </button>
-            <button class="button-sm grassgreen-button-invers">OK</button>
+            Neben dem voreingestellten LMU-Grün stehen andere Farbklassen zur
+            Verfügung:
           </p>
 
-          <h3>Button Invers</h3>
-          <h4>Orange / Grasgrün / Grau</h4>
-          <p>
-            <button class="button-lg orange-button">Platzhalter</button>
-            <button class="button-md orange-button">Platzhalter</button>
-            <button class="button-sm orange-button">OK</button>
-          </p>
-          <p>
-            <button class="button-lg grassgreen-button">Platzhalter</button>
-            <button class="button-md grassgreen-button">Platzhalter</button>
-            <button class="button-sm grassgreen-button">OK</button>
-          </p>
-          <p>
-            <button
-              class="button-lg sel-light-gray-button"
-              name="platzhalter"
-              type="submit"
-              value="abonnieren"
-            >
-              Platzhalter
-            </button>
-            <button
-              class="button-md sel-light-gray-button"
-              name="platzhalter"
-              type="submit"
-              value="abonnieren"
-            >
-              Platzhalter
-            </button>
-            <button
-              class="button-sm sel-light-gray-button"
-              name="OK"
-              type="submit"
-              value="abonnieren"
-            >
-              OK
-            </button>
-          </p>
+          <table>
+            <thead>
+              <tr>
+                <th>Klasse</th>
+                <th>Vollfarben</th>
+                <th>Invers</th>
+              </tr>
+            </thead>
+            <tbody id="button-colors"></tbody>
+          </table>
+
+          <h4>Code-Beispiele</h4>
+          <pre>
+            <code>
+    &lt;button class="button-lg orange-invers"&gt;Platzhalter&lt;/button&gt;
+    &lt;button class="button-md grassgreen"&gt;Platzhalter&lt;/button&gt;
+            </code>
+          </pre>
+          <div>
+            <button class="button-lg orange-invers">Platzhalter</button>
+            <button class="button-md grassgreen">Platzhalter</button>
+          </div>
         </div>
       </div>
     </div>

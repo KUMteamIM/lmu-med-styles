@@ -55,7 +55,7 @@ button {
   }
 }
 
-.sel-red-button {
+button.sel-red {
   color: $color-bright !important;
   background-color: $sel-red;
   border: 2px solid $sel-red;
@@ -67,7 +67,7 @@ button {
   }
 }
 
-.sel-red-button-invers {
+button.sel-red-invers {
   color: $sel-red !important;
   background-color: transparent;
   border: 2px solid $sel-red;
@@ -79,7 +79,7 @@ button {
   }
 }
 
-.sel-light-gray-button {
+button.sel-light-gray {
   color: $color-bright !important;
   background-color: $sel-light-gray;
   border: 2px solid $sel-light-gray;
@@ -91,7 +91,7 @@ button {
   }
 }
 
-.sel-light-gray-button-invers {
+button.sel-light-gray-invers {
   color: $sel-light-gray !important;
   background-color: transparent;
   border: 2px solid $sel-light-gray;
@@ -103,7 +103,7 @@ button {
   }
 }
 
-.sel-gray-button {
+button.sel-gray {
   color: $color-bright !important;
   background-color: $sel-gray;
   border: 2px solid $sel-gray;
@@ -115,7 +115,7 @@ button {
   }
 }
 
-.sel-gray-button-invers {
+button.sel-gray-invers {
   color: $sel-gray !important;
   background-color: transparent;
   border: 2px solid $sel-gray;
@@ -127,7 +127,7 @@ button {
   }
 }
 
-.sel-dark-gray-button {
+button.sel-dark-gray {
   color: $color-bright !important;
   background-color: $sel-dark-gray;
   border: 2px solid $sel-dark-gray;
@@ -139,7 +139,7 @@ button {
   }
 }
 
-.sel-dark-gray-button-invers {
+button.sel-dark-gray-invers {
   color: $sel-dark-gray !important;
   background-color: transparent;
   border: 2px solid $sel-dark-gray;
@@ -151,31 +151,31 @@ button {
   }
 }
 
-.sel-distinction-color-button {
+button.sel-distinct {
   color: $color-bright !important;
-  background-color: $sel-distinction-color;
-  border: 2px solid $sel-distinction-color;
+  background-color: $sel-distinct;
+  border: 2px solid $sel-distinct;
   &:hover,
   &:active {
-    background-color: $sel-distinction-color-dark;
-    border-color: $sel-distinction-color-dark;
+    background-color: $sel-distinct-dark;
+    border-color: $sel-distinct-dark;
     color: $color-bright !important;
   }
 }
 
-.sel-distinction-color-button-invers {
-  color: $sel-distinction-color !important;
+button.sel-distinct-invers {
+  color: $sel-distinct !important;
   background-color: transparent;
-  border: 2px solid $sel-distinction-color;
+  border: 2px solid $sel-distinct;
   &:hover,
   &:active {
-    background-color: $sel-distinction-color;
-    border-color: $sel-distinction-color;
+    background-color: $sel-distinct;
+    border-color: $sel-distinct;
     color: $color-bright !important;
   }
 }
 
-.invers {
+button.invers {
   color: $distinction-color !important;
   background-color: transparent;
   border: 2px solid $distinction-color;
@@ -187,7 +187,7 @@ button {
   }
 }
 
-.orange-button {
+button.orange {
   background-color: $orange;
   border: 2px solid $orange;
   color: $color-bright !important;
@@ -199,7 +199,7 @@ button {
   }
 }
 
-.orange-button-invers {
+button.orange-invers {
   background-color: transparent;
   border: 2px solid $orange;
   color: $orange !important;
@@ -211,7 +211,7 @@ button {
   }
 }
 
-.grassgreen-button {
+button.grassgreen {
   background-color: $grassgreen;
   border: 2px solid $grassgreen;
   color: $color-bright !important;
@@ -223,7 +223,7 @@ button {
   }
 }
 
-.grassgreen-button-invers {
+button.grassgreen-invers {
   background-color: transparent;
   border: 2px solid $grassgreen;
   color: $grassgreen !important;
@@ -235,7 +235,7 @@ button {
   }
 }
 
-.gold-button {
+button.gold {
   background-color: $gold;
   border: 2px solid $gold;
   color: $color-bright !important;
@@ -247,7 +247,7 @@ button {
   }
 }
 
-.gold-button-invers {
+button.gold-invers {
   background-color: transparent;
   border: 2px solid $gold;
   color: $gold !important;
@@ -262,7 +262,7 @@ button {
 /* Buttons Bearbeiten-Modus Stellenanzeigen*
 ======================================================== */
 
-.intern-button {
+button.intern {
   background-color: $petrol;
   border: 2px solid $petrol;
   color: $color-bright !important;
@@ -275,7 +275,7 @@ button {
   }
 }
 
-.button-thin {
+button.thin {
   width: 190px;
   padding: 7px 7px 5px 7px;
   margin-left: 10px;
@@ -288,7 +288,7 @@ button {
 }
 
 @media (max-width: 1400px) {
-  .ghost-button {
+  button {
     hyphens: auto;
   }
 }
