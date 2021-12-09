@@ -16,7 +16,7 @@
         margin-bottom: 40px;
       }
       h1 {
-        text-decoration: underline;
+        color: rgba(0, 126, 54, 1);
         margin-bottom: 24px;
       }
       pre {
@@ -31,12 +31,13 @@
       nav {
         margin-bottom: 2rem;
       }
-      a[name="*"] {
-        padding-top: 2rem;
+      a[name] {
+        line-height: 100px;
+        height: 100px;
       }
     </style>
   </head>
-  <body class="lmu">
+  <body class="lmu-klinikum">
     <nav class="navbar navbar-light bg-light sticky-top">
       <a class="navbar-brand" href="#">LMU-Styles</a>
       <a href="#buttons">Buttons</a>
@@ -115,20 +116,25 @@
           <h1>Formulare</h1>
           <div class="form-group">
             <p>
-              <label for="bla">Textfeld</label>
+              <h4>Textfeld</h4>
               <input type="text" name="bla" placeholder="Text eingeben..." />
             </p>
             <p>
+              <h4>Checkboxen</h4>
               <input type="checkbox" id="foo" />
-              <label for="foo">Checkbox1</label>
-              <br />
-              <input type="checkbox" id="foo2" value="1" />
-              <label for="foo2">Checkbox2</label>
+              <label for="foo">Klicken zum aktivieren</label>
             </p>
             <p>
-              <label for="foo">Radio-Buttons</label>
-              <input type="radio" name="bar" value="2" />
-              <input type="radio" name="bar" value="1" />
+              <h4>Radio-Buttons</h4>
+              <label>
+                <input type="radio" name="bar" value="2" checked />
+                Option 1
+              </label>
+              &nbsp;
+              <label>
+                <input type="radio" name="bar" value="1" />
+                Option 2
+              </label>
             </p>
           </div>
         </div>
