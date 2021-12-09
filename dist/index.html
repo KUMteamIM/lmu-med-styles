@@ -37,43 +37,74 @@
     </style>
   </head>
   <body class="lmu">
+    <nav class="navbar navbar-light bg-light sticky-top">
+      <a class="navbar-brand" href="#">LMU-Styles</a>
+      <a href="#buttons">Buttons</a>
+      <a href="#forms">Formulare</a>
+      <a href="#tables">Tabellen</a>
+      <a href="#listen">Listen</a>
+    </nav>
     <div class="container">
-      <nav class="navbar navbar-light bg-light sticky-top">
-        <a class="navbar-brand" href="#">LMU-Styles</a>
-        <a href="#headings">Überschriften</a>
-        <a href="#listen">Listen</a>
-        <a href="#tables">Tabellen</a>
-        <a href="#forms">Formulare</a>
-        <a href="#buttons">Buttons</a>
-      </nav>
-
       <div class="row">
-        <div class="col-md-12">
-          <a name="headings"></a>
-          <h1>Überschriften</h1>
-          <h1 style="text-decoration: none">H1 Baz</h1>
-          <h2>H2 Foo</h2>
-          <h3>H3 Bar</h3>
-          <h4>H4 Baz</h4>
-          <h5>H5 Foo</h5>
-          <h6>H6 Bar</h6>
-          <h3>
-            Überschrift 3
-            <small>Dieser Zusatztext steht im Kleingedruckten</small>
-          </h3>
-          <p class="legend">Dies ist eine Legende.</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <a name="listen"></a>
+        <div class="col-12">
+          <a name="buttons"></a>
+          <h1>Buttons</h1>
 
-          <h1>Listen</h1>
+          <h3>Button-Größen</h3>
+          <p>Es stehen drei Standardgrößen zur Verfügung:</p>
+          <table>
+            <thead>
+              <tr>
+                <th>Klassenname:</th>
+                <th>button-lg</th>
+                <th>button-md</th>
+                <th>button-sm</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Beispiel:</td>
+                <td>
+                  <button class="button-lg">Platzhalter</button>
+                </td>
+                <td>
+                  <button class="button-md">Platzhalter</button>
+                </td>
+                <td>
+                  <button class="button-sm">OK</button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
 
-          <ol>
-            <li>veligni mustius evelent quas et, officiliqui</li>
-            <li>veligni mustius evelent quas et, officiliqui</li>
-          </ol>
+          <h3>Button-Farben</h3>
+          <p>
+            Neben dem voreingestellten LMU-Grün stehen andere Farbklassen zur
+            Verfügung:
+          </p>
+
+          <table>
+            <thead>
+              <tr>
+                <th>Klasse</th>
+                <th>Vollfarben</th>
+                <th>Invers</th>
+              </tr>
+            </thead>
+            <tbody id="button-colors"></tbody>
+          </table>
+
+          <h4>Code-Beispiele</h4>
+          <pre>
+            <code>
+    &lt;button class="button-lg orange-invers"&gt;Platzhalter&lt;/button&gt;
+    &lt;button class="button-md grassgreen"&gt;Platzhalter&lt;/button&gt;
+            </code>
+          </pre>
+          <div>
+            <button class="button-lg orange-invers">Platzhalter</button>
+            <button class="button-md grassgreen">Platzhalter</button>
+          </div>
         </div>
       </div>
 
@@ -960,65 +991,15 @@
       </div>
 
       <div class="row">
-        <div class="col-12">
-          <a name="buttons"></a>
-          <h1>Buttons</h1>
+        <div class="col-md-12">
+          <a name="listen"></a>
 
-          <h3>Button-Größen</h3>
-          <p>Es stehen drei Standardgrößen zur Verfügung:</p>
-          <table>
-            <thead>
-              <tr>
-                <th>Klassenname:</th>
-                <th>button-lg</th>
-                <th>button-md</th>
-                <th>button-sm</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Beispiel:</td>
-                <td>
-                  <button class="button-lg">Platzhalter</button>
-                </td>
-                <td>
-                  <button class="button-md">Platzhalter</button>
-                </td>
-                <td>
-                  <button class="button-sm">OK</button>
-                </td>
-              </tr>
-            </tbody>
-          </table>
+          <h1>Listen</h1>
 
-          <h3>Button-Farben</h3>
-          <p>
-            Neben dem voreingestellten LMU-Grün stehen andere Farbklassen zur
-            Verfügung:
-          </p>
-
-          <table>
-            <thead>
-              <tr>
-                <th>Klasse</th>
-                <th>Vollfarben</th>
-                <th>Invers</th>
-              </tr>
-            </thead>
-            <tbody id="button-colors"></tbody>
-          </table>
-
-          <h4>Code-Beispiele</h4>
-          <pre>
-            <code>
-    &lt;button class="button-lg orange-invers"&gt;Platzhalter&lt;/button&gt;
-    &lt;button class="button-md grassgreen"&gt;Platzhalter&lt;/button&gt;
-            </code>
-          </pre>
-          <div>
-            <button class="button-lg orange-invers">Platzhalter</button>
-            <button class="button-md grassgreen">Platzhalter</button>
-          </div>
+          <ol>
+            <li>veligni mustius evelent quas et, officiliqui</li>
+            <li>veligni mustius evelent quas et, officiliqui</li>
+          </ol>
         </div>
       </div>
     </div>
