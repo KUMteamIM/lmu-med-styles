@@ -2,6 +2,7 @@ import './fonts/roboto.css'
 import './global.scss'
 import './tables.scss'
 import './buttons.scss'
+import './forms.scss'
 
 function buildButtonColors() {
   const colors = ['grassgreen', 'orange', 'gold', 'sel-red', 'sel-light-gray', 'sel-gray', 'sel-dark-gray', 'sel-distinct']
