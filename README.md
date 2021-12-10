@@ -43,7 +43,7 @@ form > input
 button
 ```
 
-For styling of buttons you have colors and style classes available:
+For styling of buttons you have class definitions for size and colour available:
 
 ```css
 /* Size classes */
@@ -51,6 +51,7 @@ button-lg button-md button-sm
 
 /* Colour classes */
 grassgreen orange gold sel-red sel-light-gray sel-gray sel-dark-gray sel-distinct
+
 /* Contoured colors */
 grassgreen-invers orange-invers gold-invers sel-red-invers sel-light-gray-invers sel-gray-invers sel-dark-gray-invers sel-distinct-invers
 ```
