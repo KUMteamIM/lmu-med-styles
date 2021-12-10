@@ -41,6 +41,8 @@ table > tbody > tr > th
 table > tbody > tr > td
 form > input
 button
+h1, h2, h3, h4, h5, h6, p
+ul, li
 ```
 
 For styling of buttons you have class definitions for size and colour available:
