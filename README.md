@@ -18,7 +18,7 @@ npm install -d KUMteamIM/lmu-styles.git
 @import 'lmu-styles/dist/lmu.css'
 ```
 
-or in a rails app, in `application.js`:
+or in a project running with webpack, add this to your entry JS:
 
 ```
 import 'lmu-styles/dist/lmu.css'
