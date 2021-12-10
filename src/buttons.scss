@@ -23,7 +23,8 @@ body.lmu-klinikum {
     padding: 12.5px 5px 10.5px 5px;
   }
 
-  button {
+  button,
+  input[type="submit"] {
     display: inline-block;
     text-transform: uppercase;
     margin-right: 0.8em;
@@ -174,7 +175,8 @@ body.lmu-klinikum {
     }
   }
 
-  button.invers {
+  button.invers,
+  input[type="submit"].invers {
     color: $distinction-color !important;
     background-color: transparent;
     border: 2px solid $distinction-color;
