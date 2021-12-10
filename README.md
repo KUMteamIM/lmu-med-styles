@@ -62,7 +62,7 @@ For more info and examples, follow the instructions at "Development"
 
 ### Adding Roboto font-family
 
-To add Roboto to your project, use (Fontsoure)[https://fontsource.org/]
+To add Roboto to your project, use (https://fontsource.org/)[Fontsoure]
 
 ```
 npm install @fontsource/roboto
