@@ -32,6 +32,47 @@ import 'lmu-styles/dist/lmu.css'
 
 4. Profit
 
+### Available classes for styling
+
+Given the class `lmu-klinikum` is applied to the body, these HTML tags are automatically styled according to the LMU Klinikum CI:
+
+```css
+table > tbody > tr > th
+table > tbody > tr > td
+form > input
+button
+```
+
+For styling of buttons you have colors and style classes available:
+
+```css
+/* Size classes */
+button-lg button-md button-sm
+
+/* Colour classes */
+grassgreen orange gold sel-red sel-light-gray sel-gray sel-dark-gray sel-distinct
+/* Contoured colors */
+grassgreen-invers orange-invers gold-invers sel-red-invers sel-light-gray-invers sel-gray-invers sel-dark-gray-invers sel-distinct-invers
+```
+
+For more info and examples, follow the instructions at "Development"
+
+### Adding Roboto font-family
+
+To add Roboto to your project, use (Fontsoure)[https://fontsource.org/]
+
+```
+npm install @fontsource/roboto
+```
+
+In your application.js or css:
+
+```
+import "@fontsource/roboto";
+
+body { font-family: 'Roboto' }
+```
+
 ## Development
 
 Checkout this project and run
@@ -46,17 +87,17 @@ To test your package run:
 npm start
 ```
 
+This starts a webserver at localhost:8080 showing examples for all the elements that are being styled by this module.
+
+## Releasing
+
 To compile a release, run:
 
 ```
 npm run compile
 ```
 
-...and commit after. At the moment (Dec 2021), the master branch is inferred directly and no versioning is in place.
-
-## Releasing
-
-Run npm version major, minor or patch to bump the version number in package.json. Then tag with the new version number and push the new tag.
+...then commit and push. At the moment (Dec 2021), the master branch is inferred directly and no versioning is in place.
 
 ## Contributing
 
