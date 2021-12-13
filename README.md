@@ -21,9 +21,13 @@ npm install -d KUMteamIM/lmu-styles.git
 Or, when using a build tool like webpack:
 
 ```javascript
-@import 'lmu-styles/dist/lmu.css'
-// or in a project running with webpack, add this to your entry JS:
+// add to your entry JS:
 import 'lmu-styles/dist/lmu.css'
+```
+
+Syntax for SCSS or SASS:
+```css
+@import 'lmu-styles/dist/lmu.css'
 ```
 
 3. Apply the required class "lmu-klinikum" to the html's body:
