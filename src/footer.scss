@@ -1,0 +1,20 @@
+@import "colours.scss";
+
+body.lmu-klinikum footer {
+  background-color: $footer_portal_background_top;
+  color: white;
+  padding: 1rem;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  a {
+    color: white;
+  }
+  margin-top: 2rem;
+  ul {
+    list-style-type: none;
+  }
+}

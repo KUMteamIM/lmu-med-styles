@@ -1,72 +1,98 @@
 @import "colours";
 
-body {
+body.lmu-klinikum {
   color: $font-color;
   font-size: 13px;
 
   a {
     color: $kum-green-100;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6 {
-  color: $font-color-light;
-  font-weight: normal;
-  margin-bottom: 1rem;
-}
-
-h1,
-.h1 {
-  line-height: 120%;
-  color: $font-color-h1;
-  &.title {
-    margin-bottom: 1.6em;
+body.lmu-klinikum {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .h1,
+  .h2,
+  .h3,
+  .h4,
+  .h5,
+  .h6 {
+    color: $font-color-light;
+    font-weight: normal;
+    margin-bottom: 1rem;
   }
-}
 
-h2,
-.h2 {
-  color: $font-color-h2;
-  line-height: 120%;
-}
+  h1,
+  .h1 {
+    line-height: 120%;
+    color: $font-color-h1;
+    &.title {
+      margin-bottom: 1.6em;
+    }
+  }
 
-h3,
-.h3 {
-  color: $font-color-h3;
-  line-height: 120%;
-}
+  h2,
+  .h2 {
+    color: $font-color-h2;
+    line-height: 120%;
+  }
 
-h4,
-.h4 {
-  color: $font-color-h4;
-  line-height: 120%;
-}
+  h3,
+  .h3 {
+    color: $font-color-h3;
+    line-height: 120%;
+  }
 
-h5,
-.h5 {
-  color: $font-color-h5;
-  line-height: 120%;
-}
+  h4,
+  .h4 {
+    color: $font-color-h4;
+    line-height: 120%;
+  }
 
-h6,
-.h6 {
-  color: $font-color-h6;
-  line-height: 110%;
-}
+  h5,
+  .h5 {
+    color: $font-color-h5;
+    line-height: 120%;
+  }
 
-p {
-  font-size: 1em;
-  text-align: left;
-  margin: 0 0 0.9em 0;
+  h6,
+  .h6 {
+    color: $font-color-h6;
+    line-height: 110%;
+  }
+
+  p {
+    font-size: 1em;
+    text-align: left;
+    margin: 0 0 0.9em 0;
+  }
+
+  li {
+    line-height: 1.5;
+    height: auto;
+    margin-bottom: 0.6em;
+    padding-left: 0.2em;
+  }
+  ul {
+    list-style-type: square;
+    line-height: 1.5;
+    ul {
+      li:before {
+        margin-left: -0.2em;
+      }
+      ul li:before {
+        margin-left: -0.8em;
+      }
+    }
+  }
 }
