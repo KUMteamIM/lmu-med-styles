@@ -1,4 +1,4 @@
-# Lmu-Styles
+# LMU Klinikum Styles
 
 Provides CSS in line with the LMU Klinikum corporate identity.
 Automatically styles buttons, forms, headings and tables on a page where the styles are
