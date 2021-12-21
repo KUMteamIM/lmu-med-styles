@@ -1,6 +1,6 @@
 {
   "name": "lmu-styles",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Provides common CSS styles in LMU Klinikum corporate identify",
   "main": "index.js",
   "scripts": {
