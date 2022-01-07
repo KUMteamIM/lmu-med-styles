@@ -1,0 +1,25 @@
+.cookie-notice {
+  position: fixed;
+  bottom: 0;
+  z-index: 100000000;
+  background-color: grey;
+  color: white;
+  padding: 10px 5px;
+  text-align: center;
+  width: 100%;
+  display: flex;
+
+  a {
+    color: white;
+    font-weight: bold;
+  }
+  div:first-child {
+    flex: 4;
+  }
+  div:nth-child(2) {
+    flex: 2;
+  }
+  div:last-child {
+    flex: 1;
+  }
+}
