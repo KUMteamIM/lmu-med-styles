@@ -15,7 +15,7 @@ npm install -d KUMteamIM/lmu-styles.git
 2. Import css from the module's dist folder:
 
 ```html
-<link href="node_modules/dist/lmu.css" rel="stylesheet" />
+<link href="node_modules/lmu-styles/dist/lmu.css" rel="stylesheet" />
 ```
 
 Or, when using a build tool like webpack:
