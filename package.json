@@ -1,7 +1,7 @@
 {
-  "name": "lmu-med-styles",
+  "name": "@lmu-med/styles",
   "version": "0.1.5",
-  "description": "Provides common CSS styles in LMU Klinikum corporate identify",
+  "description": "Provides common CSS styles in LMU Klinikum corporate identity",
   "main": "index.js",
   "scripts": {
     "compile": "webpack --mode=production",
@@ -31,5 +31,8 @@
     "webpack-cli": "^4.9.1",
     "webpack-dev-server": "^4.6.0",
     "mini-css-extract-plugin": "^2.4.5"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

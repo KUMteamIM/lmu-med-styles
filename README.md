@@ -9,26 +9,26 @@ embedded and the body has the class "lmu-klinikum" applied to it.
 1. Add the package to your project:
 
 ```
-npm install -d KUMteamIM/lmu-med-styles.git
+npm install -d @lmu-med/styles
 ```
 
 2. Import css from the module's dist folder:
 
 ```html
-<link href="node_modules/lmu-med-styles/dist/lmu.css" rel="stylesheet" />
+<link href="node_modules/@lmu-med/styles/dist/lmu.css" rel="stylesheet" />
 ```
 
 Or, when using a build tool like webpack:
 
 ```javascript
 // add to your entry JS:
-import "lmu-med-styles/dist/lmu.css";
+import "@lmu-med/styles/dist/lmu.css";
 ```
 
 Syntax for SCSS or SASS:
 
 ```css
-@import "lmu-med-styles/dist/lmu.css";
+@import "@lmu-med/styles/dist/lmu.css";
 ```
 
 3. Apply the required class "lmu-klinikum" to the html's body:
