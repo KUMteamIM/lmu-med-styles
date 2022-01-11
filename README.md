@@ -9,25 +9,26 @@ embedded and the body has the class "lmu-klinikum" applied to it.
 1. Add the package to your project:
 
 ```
-npm install -d KUMteamIM/lmu-styles.git
+npm install -d KUMteamIM/lmu-med-styles.git
 ```
 
 2. Import css from the module's dist folder:
 
 ```html
-<link href="node_modules/lmu-styles/dist/lmu.css" rel="stylesheet" />
+<link href="node_modules/lmu-med-styles/dist/lmu.css" rel="stylesheet" />
 ```
 
 Or, when using a build tool like webpack:
 
 ```javascript
 // add to your entry JS:
-import 'lmu-styles/dist/lmu.css'
+import "lmu-med-styles/dist/lmu.css";
 ```
 
 Syntax for SCSS or SASS:
+
 ```css
-@import 'lmu-styles/dist/lmu.css'
+@import "lmu-med-styles/dist/lmu.css";
 ```
 
 3. Apply the required class "lmu-klinikum" to the html's body:
@@ -110,7 +111,7 @@ npm run compile
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/KUMteamIM/lmu-styles.
+Bug reports and pull requests are welcome on GitHub at https://github.com/KUMteamIM/lmu-med-styles.
 
 ## License
 
