@@ -10,7 +10,8 @@
     "postversion": "git push && git push --tags"
   },
   "files": [
-    "dist/*.css"
+    "dist/*.css",
+    "README.md"
   ],
   "repository": {
     "type": "git",
