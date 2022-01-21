@@ -109,6 +109,17 @@ npm run compile
 
 ...then commit and push. At the moment (Dec 2021), the master branch is inferred directly and no versioning is in place.
 
+
+## Publishing
+
+To publish a new release, login as user `lmu-med-wad` with this command:
+
+    npm login
+
+Finally, to publish the new package to NPM, run this:
+
+    npm publish
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/KUMteamIM/lmu-med-styles.
