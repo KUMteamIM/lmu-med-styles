@@ -20,7 +20,6 @@ module.exports = {
       overlay: true,
     },
   },
-  devtool: 'inline-source-map',
   module: {
     rules: [
       {

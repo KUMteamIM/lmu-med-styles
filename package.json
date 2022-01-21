@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "compile": "webpack --mode=production",
-    "watch": "webpack --watch",
-    "start": "webpack serve --open"
+    "watch": "webpack --watch --devtool=inline-source-map",
+    "start": "webpack serve --open --devtool=inline-source-map",
+    "postversion": "git push && git push --tags"
   },
   "files": [
     "dist/*.css"
