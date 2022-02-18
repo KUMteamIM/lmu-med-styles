@@ -41,13 +41,18 @@ Syntax for SCSS or SASS:
 
 ### Available classes for styling
 
-Given the class `lmu-klinikum` is applied to the body, these HTML tags are automatically styled according to the LMU Klinikum CI:
+The minute you include the stylesheet in your project, these elements are automatically styled in accordance with the LMU Klinikum CI:
+
+```css
+form > input
+button
+```
+
+Additionally, by adding the class `lmu-klinikum` to the body tag, these elements are styled, too:
 
 ```css
 table > tbody > tr > th
 table > tbody > tr > td
-form > input
-button
 h1, h2, h3, h4, h5, h6, p
 ul, li
 ```
@@ -108,7 +113,6 @@ npm run compile
 ```
 
 ...then commit and push. At the moment (Dec 2021), the master branch is inferred directly and no versioning is in place.
-
 
 ## Publishing
 
