@@ -61,6 +61,17 @@ body {
     }
   }
 
+  button[disabled],
+  input[disabled] {
+    background-color: lightgrey;
+    border-color: lightgrey;
+    cursor: no-drop;
+    &:hover,
+    &:active {
+      color: lightgray;
+    }
+  }
+
   button.sel-red {
     color: $color-bright !important;
     background-color: $sel-red;
