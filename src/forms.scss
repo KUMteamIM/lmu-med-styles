@@ -4,7 +4,7 @@ input[type="checkbox"] {
   position: relative;
   top: 0px;
   z-index: 0;
-  -webkit-appearance: none;
+  opacity: 0.01; /* needs to remain visible for chrome to display "this field is required" warning */
 }
 input[type="checkbox"] + label {
   position: relative;
@@ -19,7 +19,7 @@ input[type="checkbox"] + label:before {
   width: 40px;
   height: 20px;
   border-radius: 30px;
-  border: 2px solid #ddd;
+  border: 1px solid #ddd;
   background-color: #eee;
   content: "";
   margin-right: 15px;
@@ -29,8 +29,8 @@ input[type="checkbox"] + label:before {
   left: 0px;
 }
 input[type="checkbox"] + label:after {
-  width: 22px;
-  height: 22px;
+  width: 18px;
+  height: 18px;
   border-radius: 25px;
   background-color: #fff;
   content: "";
