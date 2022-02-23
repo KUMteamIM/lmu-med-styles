@@ -4,7 +4,7 @@ input[type="checkbox"] {
   position: relative;
   top: 0px;
   z-index: 0;
-  -webkit-appearance: none;
+  opacity: 0.01; /* needs to remain visible for chrome to display "this field is required" warning */
 }
 input[type="checkbox"] + label {
   position: relative;
