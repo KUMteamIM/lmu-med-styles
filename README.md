@@ -112,7 +112,7 @@ To compile a release, run:
 npm run compile
 ```
 
-...then commit and push. At the moment (Dec 2021), the master branch is inferred directly and no versioning is in place.
+...then commit and push.
 
 ## Publishing
 
