@@ -44,14 +44,14 @@ body {
       text-decoration: none;
     }
 
-    color: $color-bright !important;
+    color: $color-bright;
     background-color: $distinction-color;
     border: 2px solid $distinction-color;
     &:hover,
     &:active {
       background-color: $distinction-color-dark;
       border-color: $distinction-color-dark;
-      color: $color-bright !important;
+      color: $color-bright;
     }
     &.btn-danger,
     &.btn-warning {
@@ -73,207 +73,207 @@ body {
   }
 
   button.sel-red {
-    color: $color-bright !important;
+    color: $color-bright;
     background-color: $sel-red;
     border: 2px solid $sel-red;
     &:hover,
     &:active {
       background-color: $sel-red-dark;
       border-color: $sel-red-dark;
-      color: $color-bright !important;
+      color: $color-bright;
     }
   }
 
   button.sel-red-invers {
-    color: $sel-red !important;
+    color: $sel-red;
     background-color: transparent;
     border: 2px solid $sel-red;
     &:hover,
     &:active {
       background-color: $sel-red;
       border-color: $sel-red;
-      color: $color-bright !important;
+      color: $color-bright;
     }
   }
 
   button.sel-light-gray {
-    color: $color-bright !important;
+    color: $color-bright;
     background-color: $sel-light-gray;
     border: 2px solid $sel-light-gray;
     &:hover,
     &:active {
       background-color: $sel-light-gray-dark;
       border-color: $sel-light-gray-dark;
-      color: $color-bright !important;
+      color: $color-bright;
     }
   }
 
   button.sel-light-gray-invers {
-    color: $sel-light-gray !important;
+    color: $sel-light-gray;
     background-color: transparent;
     border: 2px solid $sel-light-gray;
     &:hover,
     &:active {
       background-color: $sel-light-gray;
       border-color: $sel-light-gray;
-      color: $color-bright !important;
+      color: $color-bright;
     }
   }
 
   button.sel-gray {
-    color: $color-bright !important;
+    color: $color-bright;
     background-color: $sel-gray;
     border: 2px solid $sel-gray;
     &:hover,
     &:active {
       background-color: $sel-gray-dark;
       border-color: $sel-gray-dark;
-      color: $color-bright !important;
+      color: $color-bright;
     }
   }
 
   button.sel-gray-invers {
-    color: $sel-gray !important;
+    color: $sel-gray;
     background-color: transparent;
     border: 2px solid $sel-gray;
     &:hover,
     &:active {
       background-color: $sel-gray;
       border-color: $sel-gray;
-      color: $color-bright !important;
+      color: $color-bright;
     }
   }
 
   button.sel-dark-gray {
-    color: $color-bright !important;
+    color: $color-bright;
     background-color: $sel-dark-gray;
     border: 2px solid $sel-dark-gray;
     &:hover,
     &:active {
       background-color: $sel-dark-gray-dark;
       border-color: $sel-dark-gray-dark;
-      color: $color-bright !important;
+      color: $color-bright;
     }
   }
 
   button.sel-dark-gray-invers {
-    color: $sel-dark-gray !important;
+    color: $sel-dark-gray;
     background-color: transparent;
     border: 2px solid $sel-dark-gray;
     &:hover,
     &:active {
       background-color: $sel-dark-gray;
       border-color: $sel-dark-gray;
-      color: $color-bright !important;
+      color: $color-bright;
     }
   }
 
   button.sel-distinct {
-    color: $color-bright !important;
+    color: $color-bright;
     background-color: $sel-distinct;
     border: 2px solid $sel-distinct;
     &:hover,
     &:active {
       background-color: $sel-distinct-dark;
       border-color: $sel-distinct-dark;
-      color: $color-bright !important;
+      color: $color-bright;
     }
   }
 
   button.sel-distinct-invers {
-    color: $sel-distinct !important;
+    color: $sel-distinct;
     background-color: transparent;
     border: 2px solid $sel-distinct;
     &:hover,
     &:active {
       background-color: $sel-distinct;
       border-color: $sel-distinct;
-      color: $color-bright !important;
+      color: $color-bright;
     }
   }
 
   button.invers,
   input[type="submit"].invers {
-    color: $distinction-color !important;
+    color: $distinction-color;
     background-color: transparent;
     border: 2px solid $distinction-color;
     &:hover,
     &:active {
       background-color: $distinction-color;
       border-color: $distinction-color;
-      color: $color-bright !important;
+      color: $color-bright;
     }
   }
 
   button.orange {
     background-color: $orange;
     border: 2px solid $orange;
-    color: $color-bright !important;
+    color: $color-bright;
     &:hover,
     &:active {
       background-color: $orange-dark;
       border-color: $orange-dark;
-      color: $color-bright !important;
+      color: $color-bright;
     }
   }
 
   button.orange-invers {
     background-color: transparent;
     border: 2px solid $orange;
-    color: $orange !important;
+    color: $orange;
     &:hover,
     &:active {
       background-color: $orange;
       border-color: $orange;
-      color: $color-bright !important;
+      color: $color-bright;
     }
   }
 
   button.grassgreen {
     background-color: $grassgreen;
     border: 2px solid $grassgreen;
-    color: $color-bright !important;
+    color: $color-bright;
     &:hover,
     &:active {
       background-color: $grassgreen-dark;
       border-color: $grassgreen-dark;
-      color: $color-bright !important;
+      color: $color-bright;
     }
   }
 
   button.grassgreen-invers {
     background-color: transparent;
     border: 2px solid $grassgreen;
-    color: $grassgreen !important;
+    color: $grassgreen;
     &:hover,
     &:active {
       background-color: $grassgreen;
       border-color: $grassgreen;
-      color: $color-bright !important;
+      color: $color-bright;
     }
   }
 
   button.gold {
     background-color: $gold;
     border: 2px solid $gold;
-    color: $color-bright !important;
+    color: $color-bright;
     &:hover,
     &:active {
       background-color: $gold-dark;
       border-color: $gold-dark;
-      color: $color-bright !important;
+      color: $color-bright;
     }
   }
 
   button.gold-invers {
     background-color: transparent;
     border: 2px solid $gold;
-    color: $gold !important;
+    color: $gold;
     &:hover,
     &:active {
       background-color: $gold;
       border-color: $gold;
-      color: $color-bright !important;
+      color: $color-bright;
     }
   }
 
@@ -283,13 +283,13 @@ body {
   button.intern {
     background-color: $petrol;
     border: 2px solid $petrol;
-    color: $color-bright !important;
+    color: $color-bright;
     margin-right: 0;
     &:hover,
     &:active {
       background-color: #005262;
       border-color: #005262;
-      color: $color-bright !important;
+      color: $color-bright;
     }
   }
 
