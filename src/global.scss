@@ -30,12 +30,10 @@ body.lmu-klinikum {
   .h6 {
     color: $font-color-light;
     font-weight: normal;
-    margin-bottom: 1rem;
   }
 
   h1,
   .h1 {
-    line-height: 120%;
     color: $font-color-h1;
     &.title {
       margin-bottom: 1.6em;
@@ -45,31 +43,26 @@ body.lmu-klinikum {
   h2,
   .h2 {
     color: $font-color-h2;
-    line-height: 120%;
   }
 
   h3,
   .h3 {
     color: $font-color-h3;
-    line-height: 120%;
   }
 
   h4,
   .h4 {
     color: $font-color-h4;
-    line-height: 120%;
   }
 
   h5,
   .h5 {
     color: $font-color-h5;
-    line-height: 120%;
   }
 
   h6,
   .h6 {
     color: $font-color-h6;
-    line-height: 110%;
   }
 
   p {
