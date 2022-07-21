@@ -72,6 +72,10 @@ grassgreen-invers orange-invers gold-invers sel-red-invers sel-light-gray-invers
 
 For more info and examples, follow the instructions at "Development"
 
+### Styling Checkboxes
+
+Note bug in use with Ruby on Rails. If using check boxes, `form.label` must be after `form.check_box` 
+
 ### Adding Roboto font-family
 
 To add Roboto to your project, use [FontSource](https://www.fontsource.org/)
