@@ -39,8 +39,6 @@ Syntax for SCSS or SASS:
 
 4. Profit
 
-5. Note bug in use with Ruby on Rails. If using check boxes, `form.label` must be after `form.check_box` 
-
 ### Available classes for styling
 
 The minute you include the stylesheet in your project, these elements are automatically styled in accordance with the LMU Klinikum CI:
@@ -73,6 +71,10 @@ grassgreen-invers orange-invers gold-invers sel-red-invers sel-light-gray-invers
 ```
 
 For more info and examples, follow the instructions at "Development"
+
+### Styling Checkboxes
+
+Note bug in use with Ruby on Rails. If using check boxes, `form.label` must be after `form.check_box` 
 
 ### Adding Roboto font-family
 
